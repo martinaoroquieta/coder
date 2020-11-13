@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    font-weight: 400;
+    background-color: #FFF;
+    font-family: "raleway"
+}
+
+.titulo {
+  font-family: "PlayfairDisplay";
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+  line-height: 22px;
+}
+.form .label .nombre, .email .p{
+ font font-family: "Raleway";
+ color: #6d6e71;
+ letter-spacing: 2px;
+}
+
+.input[type=text] {
+    display: inline-block;
+    width: 100%;
+    height: 46px;
+    background-color: #eff0f0;
+    padding: 0 10px;
+    border: 0;
+    margin: 22px 0
+  }
+
+  .textarea{
+    textarea {
+    display: inline-block;
+    width: 100%;
+    height: 276px;
+    background-color: #eff0f0;
+    padding: 12px 10px;
+    border: 0;
+    margin: 22px 0;
+  }
+
+  .input[type=submit]{
+      display: inline-block;
+      width: 180px;
+      height: 46px;
+      background-color: #414042;
+      color: #FFF;
+      border: 0;
+      margin: 22px 0;
+      cursor: pointer;
+  }
+
+
+#footer{
+  color:white;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: left;
+  background-color: #333236;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+	grid-column-gap: 50px;
+}
+#footer .h2{
+  font-family: PlayFair Display;
+  text-decoration: underline;
+  text-align: center;
+}
